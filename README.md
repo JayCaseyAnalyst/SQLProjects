@@ -1,5 +1,6 @@
-# CovidPortfolioProject-SQL-
+# SQL Portfolio Projects
 
+# Covid-19 Project:
 This Project utilizes SQL to explore Covid-19 Data as of August, 2023. 
 
 Relevent Insights Explored:
