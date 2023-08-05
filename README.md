@@ -11,4 +11,5 @@ Techniques Utilized:
 Partition By,
 CTE,
 Aggregate functions,
-Aliasing
+Aliasing,
+Create View
