@@ -14,3 +14,17 @@ CTE,
 Aggregate functions,
 Aliasing,
 Create View
+
+# Pokemon Project
+This personal project utilizes SQL queries to learn more about Pokemon Base Stats
+
+Relevent Insights Explored:
+Average Stats by Type,
+Effects of Mega Evolving,
+Classifying Pokemon's Relative Strength,
+Observing Advantage of Dual Typing
+
+Techniques Utilized:
+CTE,
+Aggregate Functions,
+Temp Tables
