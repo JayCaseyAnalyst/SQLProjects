@@ -28,3 +28,12 @@ Techniques Utilized:
 CTE,
 Aggregate Functions,
 Temp Tables
+
+
+# Road Accidents Project
+This project utilizes SQL queries to examine accident statistics in 2022, England
+
+Relevent Insights Explored:
+Fatality of Accidents,
+Light Conditions, 
+Surface Conditions
