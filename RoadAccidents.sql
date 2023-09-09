@@ -1,7 +1,4 @@
-SELECT
-	*
-FROM
-	[Road Accident]..road_accident
+-- SELECT * FROM [Road Accident]..road_accident
 
 -- Current Year Casualties (2022) For Dry Surface Conditions
 SELECT
@@ -75,5 +72,18 @@ WHERE
 	YEAR(accident_date) = '2022'
 GROUP BY 
 	light_conditions
+ORDER BY 
+	2 DESC
+
+-- 2022 Accidents by Road Conditions
+SELECT 
+	road_surface_conditions
+	, COUNT(DISTINCT accident_index) AS CY_Accidents
+FROM
+	[Road Accident]..road_accident
+WHERE 
+	YEAR(accident_date) = '2022'
+GROUP BY 
+	road_surface_conditions
 ORDER BY 
 	2 DESC
